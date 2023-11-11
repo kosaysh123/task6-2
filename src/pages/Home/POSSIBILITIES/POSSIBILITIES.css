@@ -1,0 +1,88 @@
+
+/* Start POSSIBILITIES */
+.POSSIBILITIES{
+    padding-bottom: 250px;
+}
+.POSSIBILITIES .a1,
+.POSSIBILITIES .a2,
+.POSSIBILITIES .a3,
+.POSSIBILITIES .a4{
+    top:57%;
+    width: 10px;
+height: 10px;
+background-color: #eb0028;
+border-radius: 50%;
+}
+.POSSIBILITIES .a1{
+    left:15%; 
+   
+    }
+    .POSSIBILITIES .a2{
+left: 40%;
+    }
+    .POSSIBILITIES .a3{
+left:60%;
+    }
+    .POSSIBILITIES .a4{
+left: 90%;
+    }
+ 
+@media(max-width:991px){
+    .POSSIBILITIES .box1,
+    .POSSIBILITIES .box2,
+    .POSSIBILITIES .box3,
+    .POSSIBILITIES .box4{
+        display: none;
+    }
+    .POSSIBILITIES{
+        padding-bottom: 50px !important;
+    }
+}
+.POSSIBILITIES .box1{
+    left:3%; 
+    top:77%;
+}
+.POSSIBILITIES .box2{
+    left: 27%;
+}
+.POSSIBILITIES .box3{
+    left:47%;
+    top:77%;
+}
+.POSSIBILITIES .box4{
+    left: 76%;
+}
+.POSS .box1-1,
+.POSS .box1-2{
+    position: absolute;
+    background-color: #ffffff;
+    width: 300px !important;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 500;
+    padding: 20px;
+    border-radius:20px ;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.452);
+}
+.POSS  .btn1{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color: #eb0028;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.POSS .btn1:hover{
+    color: white;
+    background-color: #eb0028;
+    border-radius:50% ;
+    width: 25px;
+    height: 25px;
+    
+}

@@ -1,0 +1,25 @@
+/* .CUSTOMERS{
+    background-image: url(../CUSTOMERS/img/footer-zzz.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.see-h3{
+    color: white;
+} */
+.CUSTOMERS{
+    background-image: url(../CUSTOMERS/img/footer-zzz.webp);
+    background-size:cover;
+    background-color: gray;
+}
+.CUSTOMERS .imges{
+    width: 400px !important;
+}
+/* @media(max-width:661px){
+
+} */
+.accordion-item{
+    outline: none !important;
+}
+.see-h3{
+    color: white;
+}

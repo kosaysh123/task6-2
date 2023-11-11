@@ -1,0 +1,19 @@
+.INNOVATIVE .imge-m{
+    width: 380px !important;
+    height: 550px !important;
+}
+@media(max-width:661px){
+    .INNOVATIVE .imge-m{
+        width: 300px !important;
+        height: 420px !important;
+        margin-bottom: 100px;
+    }
+}
+.INNOVATIVE p {
+    font-size: 12px;
+    color: gray;
+}
+.INNOVATIVE .carde img{
+    width: 60px;
+}
+/* End INNOVATIVE */

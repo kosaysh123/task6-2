@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title p{
+    margin: 0;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.h11{
+    color: black;
+}
+.landing{
+    background-image: linear-gradient(to right, rgba(109, 179, 242, .6),
+    rgba(109, 179, 242, .6)),
+    url(../H2/Landing/Hero.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    padding-top: 0;
+}
+.landing .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    width: 100% !important;
+}
+@media(max-width:790px){
+    .landing .title{
+        display: none;
+    }
+
+}
+.landing .title .cont1{
+    display: flex;
+}
+.landing .title .cont2{
+    display: flex;
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.navbar-collapse a{
+font-size: 18px !important;
+margin-left: 15px;
+}
+.navbar-collapse a:hover{
+color: white !important;
+}
+.navbar-brand{
+    font-size: 25px !important;
+    font-weight: 800 !important;
+    color: white !important;
+}
+@media(max-width:1050px){
+    .ENROLL{
+        display: none !important;
+    }
+}
+.ENROLL{
+    background-color: aqua;
+    width: fit-content;
+    height: 50px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.min-buttom{
+    background-color: aqua;
+    width: fit-content;
+    height: 50px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.contant{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+}
+/* Start Browse Category */
+.browse .box{
+    width: 300px;
+    height: 100px;
+}
+@media(max-width:750px){
+.browse .box{
+    margin: auto;
+}
+}
+/* End Browse Category */
+/* Start Instructor */
+.Instructor{
+    height: 600px;
+}
+.Instructor img{
+    top: -105px;
+}
+@media(max-width:860px){
+    .Instructor img{
+        display: none;
+    }
+    .Instructor p{
+        width: 100% !important;
+    }
+}
+/* End Instructor */
+/* Start Best */
+.best .box{
+    width: 406px;
+}
+/* End Best */
+/* Start Right Courses */
+.rigth-courses .row .box{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 400px;
+}
+/* End  Right Courses */
+/* Start Ledares */
+.ledares{
+    background-image: linear-gradient(to right, rgba(109, 179, 242, .6),
+    rgba(109, 179, 242, .6)),
+    url();
+    width: 100%;
+    height: 50vh;
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+}
+
+/* End Ledares */
+/* Start About Us */
+@media(max-width:1150px){
+.about-us .container{
+    flex-direction: column-reverse;
+}
+}
+@media(max-width:720px){
+    .about-us img{
+    display: none;
+}
+}
+
+
+/* End  About Us */
+/* Start News */
+.news .row .box{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 600px;
+    
+}
+.news .row .box p{
+    line-height: 1.9rem;
+}
+@media(max-width:760px){
+    .news .row .box{
+        flex-direction: column;
+    }
+    .news .row .box img{
+        width: 100% !important;
+    }
+}
+/* End News */
+/* Start Price */
+.price .box{
+    width: 400px;
+}
+@media(max-width:988px){
+    .price .box{
+        margin: auto;
+    }
+}
+/* End Price */
+/* Start Testimonials */
+
+/* End Testimonials */
+/* Start Chooes Us */
+/* End Chooes Us */

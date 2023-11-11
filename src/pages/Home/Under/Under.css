@@ -1,0 +1,19 @@
+.foot{
+    border-bottom: 2px solid grey;
+    background-color: rgba(128, 128, 128, 0.226);
+}
+.foot .box h4{
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 20px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.foot .box h4:hover{
+    color: #eb0028;
+    
+}
+.foot .box p{
+    font-size: 15px;
+    color: gray;
+}
